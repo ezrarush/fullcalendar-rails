@@ -7887,6 +7887,7 @@ function Calendar_constructor(element, overrides) {
 	
 	
 	function initialRender() {
+	        element.html('');
 		tm = options.theme ? 'ui' : 'fc';
 		element.addClass('fc');
 
